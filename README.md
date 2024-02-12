@@ -1,6 +1,5 @@
 int led = 13;
-void setup() {                
-  // initialize the digital pin as an output.
+void setup() {
   pinMode(led, OUTPUT);     }
 void loop() {
   digitalWrite(led, HIGH);   
